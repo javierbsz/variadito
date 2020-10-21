@@ -2,3 +2,83 @@
 /* *** Estilos SOLO para index.html *** */
 /* *********************************** */
 
+.container{
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr  ;
+}
+
+.container__circulo1{
+    grid-column: 1/1;
+    grid-row: 2/2;
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.container__circulo2{
+    grid-column: 3/3;
+    grid-row: 1/1;
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.container__circulo3{
+    grid-column: 3/3;
+    grid-row: 3/4;
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.container__circulo4{
+    grid-column: 5/5;
+    grid-row: 2/2;
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.container__circulo1:hover{
+    background-color: red;
+}
+
+.container__circulo2:hover{
+    background-color: blue;
+}
+
+.container__circulo3:hover{
+    background-color:green;
+}
+
+.container__circulo4:hover{
+    background-color: yellow;
+}
+
+.header__contactar{
+    grid-column: 3/4;
+    grid-row: 2/2;
+
+    font-size: 7rem;
+    text-decoration: none;
+    
+}
+
+header{
+    display: flex;
+}
+
+nav{
+    justify-content: space-between;
+}
